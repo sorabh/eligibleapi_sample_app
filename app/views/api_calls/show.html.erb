@@ -1,50 +1,56 @@
+<div class="wrapper">
+  <%= render '/shared/page_header' %>
+  <hr/>
 
-<p>
-  <b>Doctor First Name:</b>
-  <%= @user.f_name %>
-</p>
+  <div class="container">
+        <p>
+          <b>Doctor First Name:</b>
+          <%= @user.f_name %>
+        </p>
 
-<p>
-  <b>Insurance Company :</b>
-  <%= @api_call.payer_name %>
-</p>
+        <p>
+          <b>Insurance Company :</b>
+          <%= @api_call.payer_name %>
+        </p>
 
-<p>
-  <b>Insurance company NPI:</b>
-  <%= @api_call.payer_id %>
-</p>
+        <p>
+          <b>Insurance company NPI:</b>
+          <%= @api_call.payer_id %>
+        </p>
 
-<p>
-  <b>Patient Id:</b>
-  <%= @api_call.subscriber_id %>
-</p>
+        <p>
+          <b>Patient Id:</b>
+          <%= @api_call.subscriber_id %>
+        </p>
 
-<p>
-  <b>Patient first name:</b>
-  <%= @api_call.subscriber_first_name %>
-</p>
+        <p>
+          <b>Patient first name:</b>
+          <%= @api_call.subscriber_first_name %>
+        </p>
 
-<p>
-  <b>Patient last name:</b>
-  <%= @api_call.subscriber_last_name %>
-</p>
-<p>
-  <b>Patient Contact No:</b>
-  <%= @api_call.patient_contact_no %>
-</p>
+        <p>
+          <b>Patient last name:</b>
+          <%= @api_call.subscriber_last_name %>
+        </p>
+        <p>
+          <b>Patient Contact No:</b>
+          <%= @api_call.patient_contact_no %>
+        </p>
 
-<p>
-  <b>Patient dob:</b>
-  <%= @api_call.subscriber_dob %>
-</p>
-<p>
-  <b>Coverage Status Code:</b>
-  <%= @api_call.coverage_status_code%>
-</p>
-<p>
-  <b>Responce:</b>
-  <%= @api_call.responce.to_s %>
-</p>
+        <p>
+          <b>Patient dob:</b>
+          <%= @api_call.subscriber_dob %>
+        </p>
+        <p>
+          <b>Coverage Status Code:</b>
+          <%= @api_call.coverage_status_code%>
+        </p>
+        <p>
+          <b>Responce:</b>
+          <%= @api_call.responce.to_s %>
+        </p>
+   </div>
+  </div>
 
 
 

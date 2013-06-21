@@ -1,0 +1,28 @@
+<header id="header">
+  <div class="container">
+    <a href="<%= root_path %>" rel="index" title="Go to homepage" class="ir site-name">Eligible Sample App<span></span></a>
+
+    <nav id="navigation">
+      <ul>
+        <li><%= link_to(raw("Home"), home_path) %></li>
+
+        <li><%= link_to "Coverage Status", coverage_status_path %></li>
+        <% if session[:user_id]!=nil %>
+          <li class="btn-sign-in logged-in"><a class="menu-toggler" href="#"><%= User.find(session[:user_id]).user_name %></a>
+            <ul class="logged-submenu">
+              <li class="sign-out"><%= link_to("New api call", home_path) %></li>
+              <li class="sign-out"><%= link_to("API calls", api_calls_path) %></li>
+              <li class="sign-out"><%= link_to("Sign Out", "logout") %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li class="btn-sign-in"><%= link_to("Sign In", 'login') %></li>
+        <% end %>
+      </ul>
+    </nav>
+    <!-- / navigation -->
+    <hr />
+  </div>
+  <!-- / container -->
+</header>
+<!-- / header -->

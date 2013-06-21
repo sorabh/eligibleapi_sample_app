@@ -1,7 +1,22 @@
-<%= render '/api_calls/form'%>
+<div class="wrapper">
+  <%= render '/shared/page_header' %>
+  <hr />
+  <div class="container">
 
-<h2>Import Details via CSV file</h2>
-<%= form_tag import_api_calls_path, multipart: true do %>
-    <%= file_field_tag :file %>
-    <%= submit_tag "Import" %>
-<% end %>
+    <%= render '/api_calls/form'%>
+
+
+    <div class="import_file">
+
+      <h2>Import Details via CSV file</h2>
+      <%= form_tag import_api_calls_path,  multipart: true do %>
+        <%= file_field_tag :file %>
+        <%= submit_tag "Import" %>
+      <% end %>
+    </div>
+
+  </div>
+</div>
+
+
+

@@ -1,0 +1,153 @@
+//= require main
+//= require lib/jquery-ui-1.9.2.custom
+//= require lib/prettify
+//= require lib/zenbox
+//= require lib/rickshaw
+//= require alerts
+//= require_self
+
+// General Styles
+.bolder
+  font-weight: bolder
+
+.bold
+  font-weight: bold
+
+.hidden
+  display: none
+
+.clearfix:after
+  content: "."
+  display: block
+  height: 0
+  clear: both
+  visibility: hidden
+
+.clear
+  clear: both
+
+.float-right
+  float: right
+
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.text-center
+  text-align: center
+
+
+// Overwrites on original design
+.dashboard .nav .current a
+  color: #238af5 !important
+
+.dashboard .nav li li a:hover
+  color: #cacaca !important
+  text-decoration: underline
+
+.form-elements [type="tel"]
+  padding: 10px
+  width: 386px
+  font-size: 18px
+  line-height: 19px
+  color: #a6a6a6
+
+.form-elements [type="tel"]
+  border: 1px solid #d5d5d5
+  border-top-color: #ababab
+  -moz-border-radius: 3px
+  -webkit-border-radius: 3px
+  border-radius: 3px
+  -moz-background-clip: padding
+  -webkit-background-clip: padding-box
+  background-clip: padding-box
+  background-color: #fcfcfc
+  -moz-box-shadow: inset 0 1px 0 #e0e0e0
+  -webkit-box-shadow: inset 0 1px 0 #e0e0e0
+  box-shadow: inset 0 1px 0 #e0e0e0
+
+.form-elements [type="tel"]:focus
+  border: 1px solid #238af5
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.17), 0 0 5px rgba(56,155,231,.3)
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.17), 0 0 5px rgba(56,155,231,.3)
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.17), 0 0 5px rgba(56,155,231,.3)
+  color: #414141
+
+.form-elements [type="tel"]:-moz-placeholder
+  color: #a6a6a6
+
+.form-elements [type="tel"]:-webkit-input-placeholder
+  color: #a6a6a6
+
+.form-elements [type="tel"]:focus:-moz-placeholder
+  color: #414141
+
+.form-elements [type="text"]:focus:-webkit-input-placeholder
+  color: #414141
+
+.nav ul
+  margin-left: 0 !important
+
+.press h3
+  line-height: 32px
+  margin-bottom: 8px
+
+// API Requests
+img#loader
+  background: none !important
+  border: 0 !important
+  border-radius: 0 !important
+  box-shadow: 0 !important
+  padding: 0 0 5px 0 !important
+  margin:  10px !important
+  vertical-align: middle !important
+
+// Billing Detail
+.recent-payments .date
+  width: 100px
+.recent-payments .amount, .recent-payments .balance
+  width: 100px
+  font-size:  16px
+
+// Dashboard - Profile Information
+li.expiry-date
+  .input
+    display: inline
+
+.payment-info .cvc input
+  width: 80px
+
+.btn.save
+  width: auto !important
+
+// Footer for tables
+.dashboard tfoot
+  background: #eff5fa
+  th
+    border-top: 1px solid #CBD3D9
+    border-bottom: 1px solid #CBD3D9
+
+.dashboard
+  #receipt
+    float: left
+    width:  674px
+    padding: 20px
+    margin:  20px
+
+    .receipt-total
+      text-align: right
+      padding-right: 20px
+
+    .eligible-company
+      float: left
+      margin:  20px 0 0 20px
+
+    .customer-company
+      float: right
+      margin:  20px 20px
+
+
+@import messages
+

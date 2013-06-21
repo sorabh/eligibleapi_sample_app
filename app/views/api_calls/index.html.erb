@@ -1,6 +1,9 @@
-<h1>Listing Api Calls</h1>
+<div class="wrapper">
+  <%= render '/shared/page_header' %>
+  <hr/>
 
-
+<div class="container">
+<h2>Listing Api Calls</h2>
 <%= form_tag api_calls_path, :method => 'get' ,id: "api_search" ,remote: true do %>
 
     <p>
@@ -18,3 +21,7 @@
 <div id="api_calls" ><%= render 'all_api_calls' %> </div>
 
 <%= link_to 'New Api call', home_path %>
+
+             </div>
+
+    </div>

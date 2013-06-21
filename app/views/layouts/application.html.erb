@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 7]>
+<html class="ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
-  <title>Sample app</title>
-  <%= stylesheet_link_tag "application"  %>
-  <%= stylesheet_link_tag "application"  ,:media => "all"%>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+  <title>Eligible API Sample App- Home</title>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= yield :header %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+  <%- if Rails.env == 'production' %>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34585557-1']);
+      _gaq.push(['_trackPageview']);
+      (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  <%- end %>
 </head>
-<body id="home">
-<div id="banner">
-  <%= @page_title ||"Sample app" %>
-</div>
-<div id="columns">
-  <div id="side">
-    <p></p>
-    <%= link_to 'Home',home_url%><br>
-    <% if session[:user_id] != nil %>
-        <%= link_to 'Api calls',api_calls_url%><br>
-        <%= link_to 'New Api call', home_path %><br>
-        <%= link_to 'Coverage Status Code',coverage_status_url%><br>
-        <%= link_to 'Logout',logout_url%><br>
+<body >
 
-    <% else %>
-        <%= link_to 'Coverage Status Code',coverage_status_url%><br>
-        <%= link_to 'Login',login_url%><br>
-  <% end %>
+<%= yield %>
 
-    <div id="time">
-      Time : <%= Time.now %>
-    </div>
-  </div>
-  <div id="main">
-    <%= yield %>
-  </div>
-</div>
-
-
+<%= javascript_include_tag 'application' %>
+<%= csrf_meta_tags %>
+<%= yield :js_code %>
 
 </body>
 </html>

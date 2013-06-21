@@ -1,8 +1,6 @@
-<div class="depot_form" >
-<legend>Enter patients details</legend>
+<div class="new_api_form" >
 
-
-<%= form_for(@api_call) do |f| %>
+<%= form_for @api_call , :html => {:class => "simple_form"}  do |f| %>
   <% if @api_call.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@api_call.errors.count, "error") %> prohibited this api_call from being saved:</h2>
@@ -14,45 +12,56 @@
       </ul>
     </div>
   <% end %>
-  <div class="field">
+
+  <h2>Enter patients details</h2>
+  <ol class="form-elements">
+    <li></li>
     <%= f.hidden_field :doctor_id ,:value =>session[:user_id] %>
-  </div>
+    </li>
+    <li>
 
-  <fieldset>
-
-  <div class="field">
-    <%= f.label :subscriber_first_name ,'Patient First Name'%><br />
+    <%= f.label :subscriber_first_name ,'Patient First Name'%>
     <%= f.text_field :subscriber_first_name %>
-  </div>
-  <div class="field">
-    <%= f.label :subscriber_last_name,'Patient Last Name' %><br />
-    <%= f.text_field :subscriber_last_name %>
-  </div>
-  <div class="field">
-    <%= f.label :subscriber_id ,'Patient Id'%><br />
-    <%= f.text_field :subscriber_id %>
-  </div>
-  <div class="field">
-    <%= f.label :patient_contact_no ,'Patient Contact Number'%><br />
-    <%= f.telephone_field :patient_contact_no %>
-  </div>
+    </li>
+    <li>
 
-  <div class="field">
-    <%= f.label :subscriber_dob ,'Patient DOB'%><br />
+    <%= f.label :subscriber_last_name,'Patient Last Name' %>
+    <%= f.text_field :subscriber_last_name %>
+    </li>
+    <li>
+
+    <%= f.label :subscriber_id ,'Patient Id'%>
+    <%= f.text_field :subscriber_id %>
+    </li>
+    <li>
+
+    <%= f.label :patient_contact_no ,'Patient Contact Number'%>
+    <%= f.text_field :patient_contact_no %>
+    </li>
+    <li>
+
+    <%= f.label :subscriber_dob ,'Patient DOB'%>
     <%= f.date_select :subscriber_dob %>
-  </div>
-    <div class="field">
-      <%= f.label :payer_name ,'Insurance Company' %><br />
+    </li>
+    <li>
+
+      <%= f.label :payer_name ,'Insurance Company' %>
       <%= f.text_field :payer_name %>
-    </div>
-    <div class="field">
-      <%= f.label :payer_id ,'Insurance Company Id'%><br />
+    </li>
+    <li>
+
+      <%= f.label :payer_id ,'Insurance Company Id'%>
       <%= f.text_field :payer_id %>
-    </div>
+    </li>
+    <li>
+
 
   <div class="actions">
-    <%= f.submit %>
+    <footer>
+      <%= f.submit class: "btn_save" %>
+    </footer>
   </div>
-  </fieldset>
+          </li>
+    </ol>
 <% end %>
 </div>

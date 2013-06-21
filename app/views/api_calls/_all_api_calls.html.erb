@@ -1,6 +1,6 @@
 <%= hidden_field_tag :direction ,params[:direction] %>
 <%= hidden_field_tag :sort ,params[:sort] %>
-<table border="1">
+<table border="1" class="views-table">
   <tr>
     <th><%= sortable "subscriber_first_name","Patient first name" %></th>
     <th><%= sortable "subscriber_last_name","Patient last name" %> </th>
@@ -13,7 +13,7 @@
     <th><%= sortable "created_at","Created on" %> </th>
     <th><%= sortable "coverage_status_code","Coverage Status Code" %> </th>
 
-    <th>delete</th>
+    <th>Show</th>
 
 
 
@@ -35,7 +35,7 @@
 
             <td><%= api_call.created_at.to_date %></td>
             <td><%= api_call.coverage_status_code %></td>
-            <td><%= link_to 'Destroy', api_call, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <td><%= link_to 'Show', api_call %></td>
           </tr>
       <% end %>
 
