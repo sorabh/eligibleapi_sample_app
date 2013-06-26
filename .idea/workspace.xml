@@ -2,67 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/down_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/images/up_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/home.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/sessions.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/users.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin-4ad4aeb2ec2d93df8300e5062b7707cf.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin-4ad4aeb2ec2d93df8300e5062b7707cf.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/pages/application-933a377407f68bbb2ce7f673d7feca0a.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/pages/application-933a377407f68bbb2ce7f673d7feca0a.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/application-eaf2390ec2dd232a2b3ae4cec7049300.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/application-eaf2390ec2dd232a2b3ae4cec7049300.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/pages/application.js.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/pages/application.js.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/print-e2186aeecceb677443527e791ac876ed.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/print-e2186aeecceb677443527e791ac876ed.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/print.css.gz" afterPath="$PROJECT_DIR$/public/assets/active_admin/print.css.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api_calls/_all_api_calls.html.erb" afterPath="$PROJECT_DIR$/app/views/api_calls/_all_api_calls.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api_calls/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/api_calls/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin.css" afterPath="$PROJECT_DIR$/public/assets/active_admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin.js" afterPath="$PROJECT_DIR$/public/assets/active_admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/api_call.rb" afterPath="$PROJECT_DIR$/app/models/api_call.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="$PROJECT_DIR$/public/assets/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/application.js" afterPath="$PROJECT_DIR$/public/assets/active_admin/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/pages/application.js" afterPath="$PROJECT_DIR$/public/assets/active_admin/pages/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/coverage_status.html.erb" afterPath="$PROJECT_DIR$/app/views/home/coverage_status.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api_calls/index.html.erb" afterPath="$PROJECT_DIR$/app/views/api_calls/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/active_admin/print.css" afterPath="$PROJECT_DIR$/public/assets/active_admin/print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/messages.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/messages.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/newrelic.yml" afterPath="$PROJECT_DIR$/config/newrelic.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api_calls/show.html.erb" afterPath="$PROJECT_DIR$/app/views/api_calls/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371834174098" ignored="false" />
-    <file path="/user.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370200762634" ignored="false" />
-    <file path="/_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371022051311" ignored="false" />
-    <file path="/show.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371838037723" ignored="false" />
-    <file path="/index.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371834470741" ignored="false" />
+    <file path="/Dummy.txt" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1372251072217" ignored="false" />
+    <file path="/user.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1372255348154" ignored="false" />
+    <file path="/_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371912057414" ignored="false" />
+    <file path="/show.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371909495944" ignored="false" />
+    <file path="/index.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371912338229" ignored="false" />
     <file path="/routes.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370193083313" ignored="false" />
     <file path="/sessions_controller.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369063608174" ignored="false" />
-    <file path="/new.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370095757886" ignored="false" />
+    <file path="/new.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371909611039" ignored="false" />
     <file path="/home_controller.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370198836015" ignored="false" />
     <file path="/application_controller.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369162809258" ignored="false" />
     <file path="/_app_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369135829402" ignored="false" />
-    <file path="/rest_api_v1.js.coffee" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369070974330" ignored="false" />
+    <file path="/rest_api_v1.js.coffee" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371923218985" ignored="false" />
     <file path="$USER_HOME$/eligibleapi/app/views/home/rest_api_v1_plan_all.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369071397734" ignored="false" />
     <file path="/rest_api_v1_plan_all.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369071382902" ignored="false" />
     <file path="$USER_HOME$/eligibleapi/app/views/layouts/application.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369072541795" ignored="false" />
     <file path="/application.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371835800547" ignored="false" />
     <file path="/users_controller.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369133217743" ignored="false" />
     <file path="/submit.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369135714282" ignored="false" />
-    <file path="/api_call.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370234327002" ignored="false" />
+    <file path="/api_call.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1372252063874" ignored="false" />
     <file path="/api_calls_controller.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370232527639" ignored="false" />
-    <file path="/Gemfile" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370189088280" ignored="false" />
+    <file path="/Gemfile" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1372253116191" ignored="false" />
     <file path="/api_calls.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369981501506" ignored="false" />
     <file path="/users.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1369235422932" ignored="false" />
     <file path="/application.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370099613351" ignored="false" />
@@ -93,11 +77,11 @@
     <file path="$USER_HOME$/eligibleapi/app/views/shared/_claims_parameters_table.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370195723621" ignored="false" />
     <file path="$USER_HOME$/eligibleapi/app/views/shared/_sidebar.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370196458728" ignored="false" />
     <file path="/_sidebar.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370196457642" ignored="false" />
-    <file path="/_all_api_calls.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370973255366" ignored="false" />
-    <file path="/main.js" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1370970667387" ignored="false" />
-    <file path="/_page_header.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371835687149" ignored="false" />
-    <file path="/main.css.scss" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371837093579" ignored="false" />
-    <file path="/messages.css.scss" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371829813870" ignored="false" />
+    <file path="/_all_api_calls.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371917450879" ignored="false" />
+    <file path="/main.js" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371885543125" ignored="false" />
+    <file path="/_page_header.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924081460" ignored="false" />
+    <file path="/main.css.scss" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1372255024725" ignored="false" />
+    <file path="/messages.css.scss" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371911411258" ignored="false" />
     <file path="/application.css.sass" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371830786027" ignored="false" />
     <file path="$USER_HOME$/webhook/eligibleapi/config/environments/production.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371563205011" ignored="false" />
     <file path="$USER_HOME$/webhook/eligibleapi/config/environments/staging.rb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371563225450" ignored="false" />
@@ -105,13 +89,31 @@
     <file path="$USER_HOME$/webhook/eligibleapi/app/views/profile/claims_ack.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371574610428" ignored="false" />
     <file path="/claims_ack.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371565174093" ignored="false" />
     <file path="/claims_ack.js.coffee" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371574178232" ignored="false" />
-    <file path="$USER_HOME$/webhook/eligibleapi/app/assets/stylesheets/main.css.scss" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371804103787" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/assets/stylesheets/main.css.scss" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371928596083" ignored="false" />
     <file path="$USER_HOME$/webhook/eligibleapi/app/assets/json/claim_rejected.json" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371799467920" ignored="false" />
     <file path="$USER_HOME$/webhook/eligibleapi/app/assets/json/claim_received.json" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371799487987" ignored="false" />
     <file path="$USER_HOME$/webhook/eligibleapi/app/assets/json/claim_accepted.json" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371799580815" ignored="false" />
     <file path="$USER_HOME$/webhook/eligibleapi/app/assets/json/claim_created.json" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371799602995" ignored="false" />
-    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_webhook_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371834133744" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_webhook_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371920596767" ignored="false" />
     <file path="/_webhook_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371834133744" ignored="false" />
+    <file path="$PROJECT_DIR$/../eligibleapi/app/assets/javascripts/main.js" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371881635609" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_standard_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371928843196" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_service_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371928826258" ignored="false" />
+    <file path="/_service_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924790418" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/assets/javascripts/rest_api_v1.js.coffee" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371925462536" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/assets/javascripts/main.js" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371915281695" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_service_v1_1_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371928835220" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_demographic_v1_1_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371928696980" ignored="false" />
+    <file path="/_standard_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924785618" ignored="false" />
+    <file path="/_service_v1_1_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924779612" ignored="false" />
+    <file path="/_demographic_v1_1_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924798898" ignored="false" />
+    <file path="/coverage_status.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371912890599" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/home/rest_api_v1_1_demographic_all.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371922133779" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_page_header.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924081460" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/shared/_claims_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371928815716" ignored="false" />
+    <file path="/_claims_tryit_form.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371924806434" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/views/home/rest_api_v1_1_coverage_all.html.erb" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371925369443" ignored="false" />
+    <file path="$USER_HOME$/webhook/eligibleapi/app/assets/json/payment_report.json" changelist="a5b94fc9-afb1-431a-b6eb-4d1207b9fbd2" time="1371929487922" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,10 +130,66 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_flash.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_flash.html.erb">
+      <file leaf-file-name="api_call.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/api_call.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="27" column="7" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="388" selection-end="388" vertical-scroll-proportion="0.42031524">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="43" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-14.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_side_validations.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/client_side_validations.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="36" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="29" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="76" selection-start="104" selection-end="104" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -140,48 +198,27 @@
       <file leaf-file-name="main.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3819" column="0" selection-start="77742" selection-end="77847" vertical-scroll-proportion="-17.096775">
+            <state line="3863" column="13" selection-start="78666" selection-end="78666" vertical-scroll-proportion="-15.064516">
               <folding>
-                <element signature="e#11420#12083#2" expanded="true" />
-                <element signature="e#14657#15572#2" expanded="true" />
-                <element signature="e#16595#17426#2" expanded="true" />
-                <element signature="e#18583#19246#2" expanded="true" />
-                <element signature="e#23787#24034#1" expanded="true" />
-                <element signature="e#24900#25267#2" expanded="true" />
-                <element signature="e#31463#32126#2" expanded="true" />
-                <element signature="e#33205#34016#2" expanded="true" />
-                <element signature="e#35782#36445#2" expanded="true" />
-                <element signature="e#38836#39499#2" expanded="true" />
-                <element signature="e#46545#47208#2" expanded="true" />
-                <element signature="e#47924#49375#1" expanded="true" />
-                <element signature="e#69091#69310#1" expanded="true" />
-                <element signature="e#69584#69827#1" expanded="true" />
-                <element signature="e#73107#74666#1" expanded="true" />
+                <element signature="e#69835#70078#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/api_calls/show.html.erb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="8" selection-start="1135" selection-end="1135" vertical-scroll-proportion="-17.5">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-bg_highlight-hard_70_000000_1x100.png" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-hard_70_000000_1x100.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/api_calls/index.html.erb">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="0" selection-end="92" vertical-scroll-proportion="-1.25">
+            <state line="5" column="61" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,22 +242,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api_calls_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/api_call.rb" />
-        <option value="$PROJECT_DIR$/app/views/api_calls/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/api_calls/_all_api_calls.html.erb" />
-        <option value="$PROJECT_DIR$/public/assets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/api_calls/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/home/coverage_status.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/messages.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
         <option value="$PROJECT_DIR$/app/views/api_calls/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/api_calls/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/coverage_status.html.erb" />
+        <option value="$PROJECT_DIR$/app/admin/admin_user.rb" />
+        <option value="$PROJECT_DIR$/app/views/api_calls/_all_api_calls.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/api_call.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/client_side_validations.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css.scss" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -256,7 +293,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,11 +322,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eligibleapi-sample-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eligibleapi-sample-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +376,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eligibleapi-sample-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,50 +417,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eligibleapi-sample-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eligibleapi-sample-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api_calls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,29 +466,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eligibleapi-sample-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,31 +492,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eligibleapi-sample-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -806,14 +801,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="24" width="1311" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39571768" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42664552" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -822,6 +816,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -883,114 +878,120 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/images/common/ico_unwrapped.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/views/api_calls/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/common/ico_wrapped.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/views/api_calls/_all_api_calls.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/common/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="10" selection-start="295" selection-end="295" vertical-scroll-proportion="-16.541666">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/common/sprite_dashboard.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/common/sprite_socials.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/dashboard/bg_footer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/blog-image.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/favicon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/views/home/coverage_status.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="14" selection-start="2476" selection-end="2514" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="379" selection-end="417" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="21" selection-start="769" selection-end="805" vertical-scroll-proportion="-19.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/api_call.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="205" selection-end="205" vertical-scroll-proportion="-4.375">
+        <state line="38" column="43" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-14.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/client_side_validations.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.6701031">
+        <state line="17" column="36" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_flash.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="29" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="76" selection-start="104" selection-end="104" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3819" column="0" selection-start="77742" selection-end="77847" vertical-scroll-proportion="-17.096775">
+        <state line="3863" column="13" selection-start="78666" selection-end="78666" vertical-scroll-proportion="-15.064516">
           <folding>
-            <element signature="e#11420#12083#2" expanded="true" />
-            <element signature="e#14657#15572#2" expanded="true" />
-            <element signature="e#16595#17426#2" expanded="true" />
-            <element signature="e#18583#19246#2" expanded="true" />
-            <element signature="e#23787#24034#1" expanded="true" />
-            <element signature="e#24900#25267#2" expanded="true" />
-            <element signature="e#31463#32126#2" expanded="true" />
-            <element signature="e#33205#34016#2" expanded="true" />
-            <element signature="e#35782#36445#2" expanded="true" />
-            <element signature="e#38836#39499#2" expanded="true" />
-            <element signature="e#46545#47208#2" expanded="true" />
-            <element signature="e#47924#49375#1" expanded="true" />
-            <element signature="e#69091#69310#1" expanded="true" />
-            <element signature="e#69584#69827#1" expanded="true" />
-            <element signature="e#73107#74666#1" expanded="true" />
+            <element signature="e#69835#70078#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/api_calls/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="0" selection-end="92" vertical-scroll-proportion="-1.25">
+        <state line="5" column="61" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/api_calls/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="8" selection-start="1135" selection-end="1135" vertical-scroll-proportion="-17.5">
+        <state line="16" column="18" selection-start="388" selection-end="388" vertical-scroll-proportion="0.42031524">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/jquery-ui/ui-bg_highlight-hard_70_000000_1x100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
   </component>

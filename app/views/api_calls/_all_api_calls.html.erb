@@ -1,23 +1,25 @@
 <%= hidden_field_tag :direction ,params[:direction] %>
 <%= hidden_field_tag :sort ,params[:sort] %>
 <table border="1" class="views-table">
-  <tr>
-    <th><%= sortable "subscriber_first_name","Patient first name" %></th>
-    <th><%= sortable "subscriber_last_name","Patient last name" %> </th>
-    <th><%= sortable "subscriber_id" ,"Patient Id"%> </th>
-    <th><%= sortable "patient_contact_no","Patient Contact Number" %></th>
-    <th><%= sortable "subscriber_dob","Patient dob" %> </th>
-    <th><%= sortable "payer_name" ,"Insurance Company"%> </th>
-    <th><%= sortable "payer_id","Insurance Company Id" %></th>
+      <thead>
+      <tr>
+        <th><%= sortable "subscriber_first_name","Patient first name" %></th>
+        <th><%= sortable "subscriber_last_name","Patient last name" %> </th>
+        <th><%= sortable "subscriber_id" ,"Patient Id"%> </th>
+        <th><%= sortable "patient_contact_no","Patient Contact Number" %></th>
+        <th><%= sortable "subscriber_dob","Patient dob" %> </th>
+        <th><%= sortable "payer_name" ,"Insurance Company"%> </th>
+        <th><%= sortable "payer_id","Insurance Company Id" %></th>
 
-    <th><%= sortable "created_at","Created on" %> </th>
-    <th><%= sortable "coverage_status_code","Coverage Status Code" %> </th>
+        <th><%= sortable "created_at","Created on" %> </th>
+        <th><%= sortable "coverage_status_code","Coverage Status Code" %> </th>
 
-    <th>Show</th>
+        <th>Show</th>
 
 
+      </thead>
+  <tbody>
 
-    <th></th>
   </tr>
 
   <% @api_calls.each do |api_call| %>
@@ -40,6 +42,7 @@
       <% end %>
 
   <% end %>
+  </tbody>
 </table>
 
 <br />

@@ -3,11 +3,12 @@ class User < ActiveRecord::Base
   attr_accessible :contact_no,:f_name, :l_name, :npi, :user_name  ,:password ,:password_confirmation
   validates :f_name, :l_name  ,:presence  =>true
 
-  validates :user_name ,:npi ,:contact_no ,:presence  =>true ,:uniqueness => true
+  validates :user_name ,:npi ,:contact_no ,:presence  =>true
   validates :password, :confirmation => true
   attr_accessor :password_confirmation
   attr_reader   :password
   validate  :password_must_be_present
+  validates_uniqueness_of :user_name ,:contact_no
 
   def User.authenticate(name, password)
     if user = find_by_user_name(name)

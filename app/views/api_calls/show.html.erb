@@ -1,58 +1,80 @@
 <div class="wrapper">
-  <%= render '/shared/page_header' %>
+ <td><%= render '/shared/page_header' %></td>
   <hr/>
 
   <div class="container">
-        <p>
-          <b>Doctor First Name:</b>
-          <%= @user.f_name %>
-        </p>
+    <section>
+      <table class="six-cols">
+        <caption>
+          <h3>Api calls details</h3>
+        </caption>
+        <tbody>
+          <tr>
+            
+              <td>Doctor First Name </td>
+             <td><%= @user.f_name %></td>
+            
+          </tr>
+          <tr>
 
-        <p>
-          <b>Insurance Company :</b>
-          <%= @api_call.payer_name %>
-        </p>
+              <td>Insurance Company </td>
+             <td><%= @api_call.payer_name %></td>
+          </tr>
+          <tr>
+    
+            
+              <td>Insurance company NPI </td>
+             <td><%= @api_call.payer_id %></td>
 
-        <p>
-          <b>Insurance company NPI:</b>
-          <%= @api_call.payer_id %>
-        </p>
+          </tr>
+          <tr>
+            
+              <td>Patient Id </td>
+             <td><%= @api_call.subscriber_id %></td>
 
-        <p>
-          <b>Patient Id:</b>
-          <%= @api_call.subscriber_id %>
-        </p>
+          </tr>
+          <tr>
+            
+              <td>Patient first name </td>
+             <td><%= @api_call.subscriber_first_name %></td>
 
-        <p>
-          <b>Patient first name:</b>
-          <%= @api_call.subscriber_first_name %>
-        </p>
+          </tr>
+          <tr>
+            
+              <td>Patient last name </td>
+             <td><%= @api_call.subscriber_last_name %></td>
 
-        <p>
-          <b>Patient last name:</b>
-          <%= @api_call.subscriber_last_name %>
-        </p>
-        <p>
-          <b>Patient Contact No:</b>
-          <%= @api_call.patient_contact_no %>
-        </p>
+          </tr>
+          <tr>
+              <td>Patient Contact No </td>
+             <td><%= @api_call.patient_contact_no %></td>
 
-        <p>
-          <b>Patient dob:</b>
-          <%= @api_call.subscriber_dob %>
-        </p>
-        <p>
-          <b>Coverage Status Code:</b>
-          <%= @api_call.coverage_status_code%>
-        </p>
-        <p>
-          <b>Responce:</b>
-          <%= @api_call.responce.to_s %>
-        </p>
-   </div>
+          </tr>
+          <tr>
+            
+              <td>Patient dob  </td>
+             <td><%= @api_call.subscriber_dob %></td>
+          </tr>
+          <tr>
+            
+              <td>Coverage Status Code  </td>
+             <td><%= @api_call.coverage_status_code%></td>
+
+          </tr>
+          <tr>
+              <td>Responce  </td>
+             <td><%= @api_call.responce.to_s %></td>
+          </tr>
+
+        </tbody>
+      </table>
+    <section>
   </div>
+  <%= render '/shared/page_footer' %>
+
+</div>
 
 
 
 
-<%= link_to 'Back', api_calls_path %>
+<%= link_to 'Back', api_calls_path %></td>

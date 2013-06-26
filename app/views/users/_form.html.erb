@@ -1,45 +1,49 @@
-<%= form_for(@user) do |f| %>
-  <% if @user.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+<div class="new_user_form">
+    <%= form_for @user ,:html => {:class => "simple_form"},:validate => true do |f| %>
+      <% if @user.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
 
-      <ul>
-      <% @user.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+          <ul>
+          <% @user.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+          </ul>
+        </div>
       <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :user_name,"User Name" %><br />
-    <%= f.text_field :user_name %>
-  </div>
-  <div class="field">
-    <%= f.label :f_name ,"First Name" %><br />
-    <%= f.text_field :f_name %>
-  </div>
-  <div class="field">
-    <%= f.label :l_name,"Last Name" %><br />
-    <%= f.text_field :l_name %>
-  </div>
-  <div class="field">
-    <%= f.label :npi ,"National Provider Identifier (NPI)"%><br />
-    <%= f.number_field :npi %>
-  </div>
-  <div class="field">
-    <%= f.label :contact_no ,"Contact Number"%><br />
-    <%= f.number_field :contact_no %>
-  </div>
-  <div class="field">
-    <%= f.label :password ,"Password"%><br />
-    <%= f.password_field :password %>
-  </div>
-  <div class="field">
-    <%= f.label :password_confirmation , "Confirm Password" %><br />
-    <%= f.password_field :password_confirmation %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+      <h2>Enter patients details</h2>
+      <ol class="form-elements">
+          <li>
+            <%= f.label :user_name,"User Name" %>
+            <%= f.text_field :user_name %>
+          </li>
+          <li>
+            <%= f.label :f_name ,"First Name" %>
+            <%= f.text_field :f_name %>
+          </li>
+          <li>
+            <%= f.label :l_name,"Last Name" %>
+            <%= f.text_field :l_name %>
+          </li>
+          <li>
+            <%= f.label :npi ,"National Provider Identifier (NPI)"%>
+            <%= f.text_field :npi %>
+          </li>
+          <li>
+            <%= f.label :contact_no ,"Contact Number"%>
+            <%= f.text_field :contact_no %>
+          </li>
+          <li>
+            <%= f.label :password ,"Password"%>
+            <%= f.password_field :password %>
+          </li>
+          <li>
+            <%= f.label :password_confirmation , "Confirm Password" %>
+            <%= f.password_field :password_confirmation %>
+          </li>
+          <li>
+            <%= f.submit %>
+          </li>
+      </ol>
+    <% end %>
+</div>

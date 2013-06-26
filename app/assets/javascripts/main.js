@@ -17,7 +17,7 @@
             return c*((t=t/d-1)*t*t*t*t + 1) + b;
         }
     });
-    
+
     var App = {
 
         /**
@@ -25,7 +25,7 @@
          */
         init: function () {
             $("body").removeClass("no-js");
-            
+
             if ($('body').hasClass('home')) {
                 this.homeCycle();
                 this.customers();
@@ -47,7 +47,7 @@
             this.tabSwitching();
             this.signature();
             this.listTree();
-            
+
         },
 
         /**
@@ -61,14 +61,61 @@
             });
         },
 
+        customers: function() {
+            var customers = $('.customers'),
+                items = $('.customers li'),
+                axis = $('<div class="axis">'),
+                indicator = $('<div class="indicator">'),
+                companyNames = $('<ul class="company-names">'),
+                totalWidth = $('.customers .mover').width(),
+                activeClass = 'active',
+                initialPos = 0,
+                margin = 0,
 
+
+                init = function() {
+                    items.each(function(i) {
+                        var companyName = $(this).find('.company-name').html(),
+                            classname = (!i) ? activeClass : '';
+                        companyNames.append($('<li>').attr('class', classname).html(companyName));
+                    });
+
+                    customers.append(axis.append(indicator));
+                    customers.append(companyNames);
+
+                    indicator.show();
+
+                    setTimeout(function() {
+                        companyNames.find(':first-child').each(function() {
+                            initialPos = $(this).position().left + $(this).width()/2 - indicator.width()/2 + parseInt($(this).css('margin-left'));
+                        });
+                        indicator.css('left', initialPos);
+                    }, 500); // time to render custom fonts that may affect element's width
+                };
+
+            $('body').on('click', '.company-names li', function() {
+                // shifting indicator
+                var pos = $(this).position().left + $(this).width()/2 - indicator.width()/2 + parseInt($(this).css('margin-left')),
+                    index = companyNames.find('li').index($(this));
+                indicator.css('left', pos);
+                companyNames.find('.'+activeClass).removeClass(activeClass);
+                $(this).addClass(activeClass);
+
+                // slider
+                $('.items').css('left', index*totalWidth*-1);
+
+            });
+
+            init();
+
+
+        },
 
         loggedMenu: function () {
             $('a.menu-toggler').on('click', function (e) {
-                var $submenu = $(this) .siblings('.logged-submenu');
+                var $submenu = $(this).siblings('a .logged-submenu');
                 e.preventDefault();
                 e.stopPropagation();
-
 
                 if (!$submenu.hasClass('opened')) {
                     $submenu.addClass('opened');
@@ -213,8 +260,8 @@
 
                     $(sidebar).animate({
                         'width': 0
-                        }, speed, easing, function() {
-                            $(sidebar).css({'overflow': 'hidden'})
+                    }, speed, easing, function() {
+                        $(sidebar).css({'overflow': 'hidden'})
                     });
 
                     $(content).animate({
@@ -237,7 +284,7 @@
 
                     $(sidebar).animate({
                         'width': sidebarWidth
-                        }, speed, easing);
+                    }, speed, easing);
 
                     $(content).animate({
                         'width': contentWidth
@@ -248,7 +295,7 @@
                     }, speed, easing);
 
                     $(jsonExample).animate({
-                        'width': jsonExampleWidth 
+                        'width': jsonExampleWidth
                     }, speed, easing);
 
                     $(this).removeClass('active').html(buttonText);
@@ -294,7 +341,7 @@
             // initial setup
             titles.next('ul').addClass('hidden');
             toggleButton.html(toggleButtonText);
-            
+
 
         }
     };

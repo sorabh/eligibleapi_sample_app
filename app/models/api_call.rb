@@ -2,7 +2,7 @@ require 'net/http'
 class ApiCall < ActiveRecord::Base
   attr_accessible :doctor_id, :patient_contact_no, :payer_id, :payer_name, :subscriber_dob, :subscriber_first_name, :subscriber_id, :subscriber_last_name ,:responce,:coverage_status_code
   validates :doctor_id, :patient_contact_no, :payer_id, :payer_name, :subscriber_dob, :subscriber_first_name, :subscriber_id, :subscriber_last_name, :presence => true
-  validates :patient_contact_no ,:numericality => { :only_integer => true } ,length: {is: 10}
+  validates :patient_contact_no ,:presence => true
 
 
   def self.make_api_call(call)
