@@ -113,7 +113,7 @@
 
         loggedMenu: function () {
             $('a.menu-toggler').on('click', function (e) {
-                var $submenu = $(this).siblings('a .logged-submenu');
+                var $submenu = $(this).siblings('.logged-submenu');
                 e.preventDefault();
                 e.stopPropagation();
 
