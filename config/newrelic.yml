@@ -5,7 +5,7 @@
 #
 # Generated June 27, 2013
 #
-# This configuration file is custom generated for pickarty
+# This configuration file is custom generated for eligibleapi_sample_app
 
 
 # Here are the settings that are common to all environments
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'de4c489e7dba2cc069c283c8ae50d47c65ba6bbc'
+  license_key: '3e417f90740ec8b5ef379bdc198ad73d05f919ad'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
