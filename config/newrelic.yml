@@ -3,9 +3,9 @@
 # Ruby, Java, .NET, PHP, and Python applications with deep visibility and low overhead.
 # For more information, visit www.newrelic.com.
 #
-# Generated June 26, 2013
+# Generated June 27, 2013
 #
-# This configuration file is custom generated for forfuture
+# This configuration file is custom generated for pickarty
 
 
 # Here are the settings that are common to all environments
@@ -15,7 +15,7 @@ common: &default_settings
   # You must specify the license key associated with your New Relic
   # account.  This key binds your Agent's data to your account in the
   # New Relic service.
-  license_key: 'f7173e09c4709ce81e654829b6ead2a655713359'
+  license_key: 'de4c489e7dba2cc069c283c8ae50d47c65ba6bbc'
 
   # Agent Enabled (Ruby/Rails Only)
   # Use this setting to force the agent to run or not run.
