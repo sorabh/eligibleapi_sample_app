@@ -1,8 +1,8 @@
 <div class="new_user_form">
-    <%= form_for @user ,:html => {:class => "simple_form"},:validate => true do |f| %>
+    <%= form_for @user ,:html => {:class => "simple_form"} do |f| %>
       <% if @user.errors.any? %>
         <div id="error_explanation">
-          <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+          <h2> Prohibited this user from being saved:</h2>
 
           <ul>
           <% @user.errors.full_messages.each do |msg| %>
@@ -15,34 +15,34 @@
       <ol class="form-elements">
           <li>
             <%= f.label :user_name,"User Name" %>
-            <%= f.text_field :user_name %>
+            <%= f.text_field :user_name ,required: true%>
           </li>
           <li>
             <%= f.label :f_name ,"First Name" %>
-            <%= f.text_field :f_name %>
+            <%= f.text_field :f_name,required: true %>
           </li>
           <li>
             <%= f.label :l_name,"Last Name" %>
-            <%= f.text_field :l_name %>
+            <%= f.text_field :l_name ,required: true%>
           </li>
           <li>
             <%= f.label :npi ,"National Provider Identifier (NPI)"%>
-            <%= f.text_field :npi %>
+            <%= f.text_field :npi ,required: true%>
           </li>
           <li>
             <%= f.label :contact_no ,"Contact Number"%>
-            <%= f.text_field :contact_no %>
+            <%= f.text_field :contact_no,required: true %>
           </li>
           <li>
             <%= f.label :password ,"Password"%>
-            <%= f.password_field :password %>
+            <%= f.password_field :password ,required: true %>
           </li>
           <li>
             <%= f.label :password_confirmation , "Confirm Password" %>
-            <%= f.password_field :password_confirmation %>
+            <%= f.password_field :password_confirmation,required: true %>
           </li>
           <li>
-            <%= f.submit %>
+            <%= f.submit  class: "btn" %>
           </li>
       </ol>
     <% end %>

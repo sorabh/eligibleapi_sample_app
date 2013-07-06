@@ -1,6 +1,18 @@
-<h1>Editing user</h1>
 
-<%= render 'form' %>
+<div class="wrapper">
+  <%= render '/shared/page_header' %>
+  <hr />
+  <div class="container">
 
-<%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>
+    <h1>Editing user</h1>
+
+    <%= render 'form' %>
+
+    <%= link_to 'Show', @user %> |
+    <%= link_to 'Back', users_path %>
+
+  </div>
+  <%= render '/shared/page_footer' %>
+
+</div>
+

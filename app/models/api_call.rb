@@ -59,7 +59,7 @@ class ApiCall < ActiveRecord::Base
 
   def self.search(search)
     if search
-      where('subscriber_first_name LIKE ?', "%#{search}%")
+      where('subscriber_first_name LIKE :search or subscriber_last_name LIKE :search or payer_name LIKE :search',search: "%#{search}%")
     else
       scoped
     end

@@ -4,5 +4,6 @@ ActiveAdmin.register User do
     column "first Name",:f_name
     column "Last name",:l_name
     column :contact_no
+    column :api_key
   end
 end

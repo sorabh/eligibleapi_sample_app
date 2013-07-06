@@ -15,7 +15,7 @@
     <%= form_tag do %>
       <div class="content clearfix">
         <ol class="form-elements">
-          <li><%= text_field_tag :name,   "user name" %></li>
+          <li><%= text_field_tag :name,   "user name" ,required: true%></li>
           <li><%= password_field_tag :password,  "Password" %></li>
         </ol>
       </div>

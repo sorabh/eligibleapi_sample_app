@@ -11,7 +11,7 @@
       <h2>Import Details via CSV file</h2>
       <%= form_tag import_api_calls_path,  multipart: true do %>
         <%= file_field_tag :file %>
-        <%= submit_tag "Import" %>
+        <%= submit_tag "Import" ,class: "btn" %>
       <% end %>
     </div>
   </div>
