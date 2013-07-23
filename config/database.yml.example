@@ -13,11 +13,11 @@
 # gem 'pg'
 #
 development:
-  adapter: postgresql
+  adapter: mysql
   encoding: unicode
   database: sample_app_development
   pool: 5
-  username: sorabh
+  username: root
   password: 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
